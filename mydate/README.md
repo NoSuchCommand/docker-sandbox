@@ -1,2 +1,2 @@
-docker build -t mydate:latest .
-docker run mydate
+    docker build -t mydate:latest .
+    docker run mydate
