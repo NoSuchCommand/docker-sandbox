@@ -1,6 +1,6 @@
 #!/bin/bash
 
 while : ; do
-  /usr/bin/date
+  printf "$(uname -n) --> $(/usr/bin/date)\n"
   sleep 2
 done
